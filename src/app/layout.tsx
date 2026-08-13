@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     template: "%s | Viru Pathak",
   },
   description:
-    "Full-Stack Developer specializing in React, Next.js, Node.js, and cloud infrastructure. Building fast, scalable, and beautiful digital products.",
+    "Web Developer specializing in Python, Django, React, Next.js, and modern web technologies. Building innovative and impactful web applications.",
   keywords: [
     "Full-Stack Developer",
     "React Developer",
@@ -48,14 +48,14 @@ export const metadata: Metadata = {
     url: "https://virupathak.dev",
     title: "Viru Pathak — Full-Stack Developer",
     description:
-      "Full-Stack Developer specializing in React, Next.js, Node.js, and cloud infrastructure.",
+      "Web Developer specializing in Python, Django, React, Next.js, and modern web technologies.",
     siteName: "Viru Pathak Portfolio",
   },
   twitter: {
     card: "summary_large_image",
     title: "Viru Pathak — Full-Stack Developer",
     description:
-      "Full-Stack Developer specializing in React, Next.js, Node.js, and cloud infrastructure.",
+      "Web Developer specializing in Python, Django, React, Next.js, and modern web technologies.",
     creator: "@viru_pathak",
   },
   robots: {

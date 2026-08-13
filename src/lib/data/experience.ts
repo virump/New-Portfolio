@@ -65,7 +65,7 @@ export const experience: Experience[] = [
     type: "full-time",
     startDate: "2020-07",
     endDate: "2021-12",
-    location: "Pune, India",
+    location: "Thane, India",
     remote: false,
     description: "Developed and maintained React-based web applications for enterprise clients in the manufacturing and logistics sectors.",
     responsibilities: [

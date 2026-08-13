@@ -26,14 +26,13 @@ export interface Certification {
 export const education: Education[] = [
   {
     id: "edu-1",
-    institution: "Savitribai Phule Pune University",
-    institutionLogo: "/images/universities/sppu.svg",
+    institution: "MGM College of Engineering & Technology",
+    institutionLogo: "/images/universities/mgm.svg",
     degree: "Bachelor of Engineering",
     major: "Computer Engineering",
-    startYear: 2016,
-    endYear: 2020,
-    gpa: "8.7 / 10",
-    location: "Pune, India",
+    startYear: 2020,
+    endYear: 2024,
+    location: "Kamothe, Navi Mumbai, India",
     courses: [
       "Data Structures & Algorithms",
       "Database Management Systems",
@@ -42,12 +41,12 @@ export const education: Education[] = [
       "Software Engineering",
       "Web Technologies",
       "Artificial Intelligence",
-      "Cloud Computing",
+      "Object-Oriented Programming",
     ],
     projects: [
-      "Final Year: Smart Traffic Management System using CV + IoT",
-      "Third Year: Online Exam Portal (MERN Stack)",
-      "Second Year: Library Management System (Java + MySQL)",
+      "Final Year: SAFE-HER — Women's Safety Platform (Django + Python)",
+      "Third Year: Spotify Clone (HTML, CSS, JavaScript)",
+      "Second Year: Chess Game (EJS, Tailwind CSS, JavaScript)",
     ],
   },
 ];

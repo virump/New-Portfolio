@@ -139,7 +139,7 @@ export function ContactPage() {
               <div className="glass rounded-xl border border-border/50 p-4">
                 <MapPin className="w-4 h-4 text-primary mb-1.5" />
                 <p className="text-xs text-muted-foreground">Location</p>
-                <p className="text-sm font-medium text-foreground mt-0.5">Pune, India</p>
+                <p className="text-sm font-medium text-foreground mt-0.5">Thane, India</p>
               </div>
               <div className="glass rounded-xl border border-border/50 p-4">
                 <Clock className="w-4 h-4 text-primary mb-1.5" />

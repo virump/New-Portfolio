@@ -20,18 +20,18 @@ import { ProjectCard } from "@/components/shared/ProjectCard";
 import { SectionHeading } from "@/components/shared/SectionHeading";
 
 const roles = [
-  "Full-Stack Developer",
-  "Open Source Contributor",
+  "Web Developer",
+  "Python Developer",
+  "Django Developer",
+  "React Developer",
   "Problem Solver",
-  "Cloud Architect",
-  "UI/UX Enthusiast",
 ];
 
 const stats = [
-  { label: "Projects Delivered", value: 40, suffix: "+" },
-  { label: "GitHub Stars", value: 2800, suffix: "+" },
-  { label: "Years Experience", value: 5, suffix: "+" },
-  { label: "Open Source PRs", value: 120, suffix: "+" },
+  { label: "Projects Built", value: 4, suffix: "+" },
+  { label: "GitHub Repos", value: 10, suffix: "+" },
+  { label: "Technologies", value: 12, suffix: "+" },
+  { label: "Lines of Code", value: 15, suffix: "K+" },
 ];
 
 function TypewriterText() {

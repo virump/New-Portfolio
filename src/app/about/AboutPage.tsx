@@ -71,7 +71,7 @@ export default function AboutPage() {
             {/* Info sidebar */}
             <div className="w-full max-w-xs space-y-3">
               {[
-                { icon: MapPin, label: "Location", value: "Pune, Maharashtra, India" },
+                { icon: MapPin, label: "Location", value: "Thane, Maharashtra, India" },
                 { icon: Calendar, label: "Experience", value: "5+ Years" },
                 { icon: CheckCircle2, label: "Status", value: "Available for Hire ✅" },
               ].map(({ icon: Icon, label, value }) => (
@@ -103,9 +103,9 @@ export default function AboutPage() {
             className="space-y-6"
           >
             {[
-              "I'm Viru Pathak, a Full-Stack Developer with 5+ years of experience building production-grade web applications, APIs, and cloud infrastructure. I specialize in the JavaScript/TypeScript ecosystem — React and Next.js on the frontend, Node.js and PostgreSQL on the backend.",
-              "My journey started with a Computer Engineering degree from Savitribai Phule Pune University, where I fell in love with software architecture and problem-solving. Since then, I've shipped products used by tens of thousands of users, contributed to major open-source projects, and won national hackathons.",
-              "Beyond writing code, I'm passionate about developer experience, accessibility, and performance. I believe great software is a craft — it should be fast, reliable, and a joy to use. I'm always exploring new tools and frameworks to stay at the cutting edge.",
+              "I\u2019m Viru Pathak, a dedicated programming enthusiast seeking to leverage my coding skills and passion for technology in a dynamic development environment. My goal is to contribute to innovative software solutions while continuously enhancing my expertise.",
+              "My journey started with a Computer Engineering degree from MGM College of Engineering & Technology, Kamothe, Navi Mumbai. I specialize in Python, Django, React, Next.js, and modern web development technologies. From crafting efficient algorithms to developing user-centric web applications, I thrive on challenges that allow me to apply my diverse skill set.",
+              "I aim to collaborate with talented teams to create impactful web applications that drive success. I\u2019m always exploring new tools and frameworks to stay at the cutting edge and build fast, reliable, and beautiful digital products.",
             ].map((para, i) => (
               <motion.p
                 key={i}
