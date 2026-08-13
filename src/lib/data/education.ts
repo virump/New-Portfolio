@@ -30,8 +30,8 @@ export const education: Education[] = [
     institutionLogo: "/images/universities/mgm.svg",
     degree: "Bachelor of Engineering",
     major: "Computer Engineering",
-    startYear: 2020,
-    endYear: 2024,
+    startYear: 2023,
+    endYear: 2027,
     location: "Kamothe, Navi Mumbai, India",
     courses: [
       "Data Structures & Algorithms",
@@ -41,12 +41,12 @@ export const education: Education[] = [
       "Software Engineering",
       "Web Technologies",
       "Artificial Intelligence",
-      "Object-Oriented Programming",
+      "Cloud Computing",
     ],
     projects: [
-      "Final Year: SAFE-HER — Women's Safety Platform (Django + Python)",
-      "Third Year: Spotify Clone (HTML, CSS, JavaScript)",
-      "Second Year: Chess Game (EJS, Tailwind CSS, JavaScript)",
+      "Final Year: Aegis - A Unified AI Trust Platform For Reliable, Explainable and Secure LMMs (SDK).",
+      "Third Year: CareBridge AI is a hybrid AI platform combining medical reasoning, deterministic rules, and IRDAI regulations to help consumers analyze policies, audit claim rejections, and compare health insurance plans.",
+      "Second Year: SRS-Talent-Connect (Skilling Resources Solution) is a dynamic platform designed to bridge the gap between aspiring talent and opportunity.",
     ],
   },
 ];
