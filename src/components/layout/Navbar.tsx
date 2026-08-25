@@ -17,6 +17,7 @@ const navLinks = [
   { href: "/education", label: "Education" },
   { href: "/achievements", label: "Achievements" },
   { href: "/blog", label: "Blog" },
+  { href: "/play", label: "Play" },
   { href: "/contact", label: "Contact" },
 ];
 
@@ -59,6 +60,20 @@ export function Navbar() {
               Viru<span className="text-primary">.</span>
             </span>
           </Link>
+
+          {/* Mobile Play Badge (Center) */}
+          <div className="absolute left-1/2 -translate-x-1/2 flex lg:hidden">
+            <Link 
+              href="/play"
+              className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-primary/10 border border-primary/20 text-primary hover:bg-primary/20 transition-colors shadow-[0_0_10px_rgba(var(--primary),0.2)]"
+            >
+              <span className="relative flex h-2 w-2">
+                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75"></span>
+                <span className="relative inline-flex rounded-full h-2 w-2 bg-primary"></span>
+              </span>
+              <span className="text-[11px] font-bold tracking-wide uppercase">Play</span>
+            </Link>
+          </div>
 
           {/* Desktop nav */}
           <div className="hidden lg:flex items-center gap-0.5">
