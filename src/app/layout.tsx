@@ -24,9 +24,9 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://virupathak.dev"),
+  metadataBase: new URL("https://viru.pages.dev"),
   title: {
-    default: "Viru Pathak — Full-Stack Developer",
+    default: "Viru Pathak | Software & Full Stack Engineer",
     template: "%s | Viru Pathak",
   },
   description:
@@ -45,15 +45,15 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://virupathak.dev",
-    title: "Viru Pathak — Full-Stack Developer",
+    url: "https://viru.pages.dev",
+    title: "Viru Pathak | Software & Full Stack Engineer",
     description:
       "Full-Stack Developer specializing in Python, Django, React, Next.js, and modern web technologies.",
     siteName: "Viru Pathak Portfolio",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Viru Pathak — Full-Stack Developer",
+    title: "Viru Pathak | Software & Full Stack Engineer",
     description:
       "Full-Stack Developer specializing in Python, Django, React, Next.js, and modern web technologies.",
     creator: "@viru_pathak",
@@ -97,7 +97,7 @@ export default function RootLayout({
       <body className="min-h-screen bg-background text-foreground antialiased">
         <ThemeProvider
           attribute="class"
-          defaultTheme="dark"
+          defaultTheme="light"
           enableSystem
           disableTransitionOnChange={false}
         >
