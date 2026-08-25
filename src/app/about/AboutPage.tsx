@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { motion } from "framer-motion";
 import {
   MapPin,
@@ -47,13 +48,19 @@ export default function AboutPage() {
             initial={{ opacity: 0, x: -30 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.7 }}
-            className="flex flex-col items-center lg:items-start gap-6"
+            className="flex flex-col items-center gap-6"
           >
             {/* Avatar frame */}
             <div className="relative">
               <div className="w-64 h-64 rounded-2xl bg-gradient-to-br from-cyan-500 to-blue-600 p-1 shadow-2xl shadow-primary/30">
                 <div className="w-full h-full rounded-xl bg-muted flex items-center justify-center overflow-hidden">
-                  <div className="text-8xl">👨‍💻</div>
+                  <Image
+                    src="/viruavatar.jpeg"
+                    alt="Viru Pathak"
+                    width={256}
+                    height={256}
+                    className="w-full h-full object-cover object-top scale-115 grayscale hover:grayscale-0 transition-all duration-500"
+                  />
                 </div>
               </div>
               {/* Floating badge */}
